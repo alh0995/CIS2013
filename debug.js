@@ -45,7 +45,7 @@ var calculateIncome = function ()
         }
 }
 
-	floatAnnualTax = floatAnnualIncome * (floatTaxRate/100);
+	floatAnnualTax = floatAnnualIncome * (floatTaxRate);
 
 	$("annualTax").value = floatAnnualTax;
 
